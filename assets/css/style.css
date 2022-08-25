@@ -1,9 +1,8 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 374.98px) {
-h2 {
-    font-size: 20px;
-    margin-bottom: 0px;
-}
+ .navClass .navbar-brand img.logo {
+        width: 175px;
+    }
 }
 @media (min-width: 375px) and (max-width: 575.98px) {  }
 
