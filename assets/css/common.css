@@ -23,7 +23,7 @@
 }
 
 h1 {
-    font-size: 63px;
+    font-size: 35px;
     margin-bottom: 0px;
 }
 
@@ -177,24 +177,119 @@ h3 {
 }
 
 @media (min-width: 375px) and (max-width: 575.98px) {
-    .container-fluid {
+     .container-fluid {
         padding: 0px 10px !important;
     }
+
+    .customButtonYello {
+        height: 35px;
+        font-size: 11px;
+    }
+
+    .customButtonWhite {
+
+        height: 35px;
+        font-size: 11px;
+    }
+
+    .reverseSm {
+        flex-direction: column-reverse !important;
+    }
+
+    .buttonSubTextCancel {
+        color: #777E82;
+        font-size: 12px;
+    }
+
+    .fontSm13 {
+        font-size: 13px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
 }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .container-fluid {
-        padding: 0px 10px !important;
+         .container-fluid {
+        padding: 0px 50px !important;
+    }
+
+    .customButtonYello {
+        height: 35px;
+        font-size: 11px;
+    }
+
+    .customButtonWhite {
+
+        height: 35px;
+        font-size: 11px;
+    }
+
+    .reverseSm {
+        flex-direction: column-reverse !important;
+    }
+
+    .buttonSubTextCancel {
+        color: #777E82;
+        font-size: 12px;
+    }
+
+    .fontSm13 {
+        font-size: 13px;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 0px;
     }
 
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container-fluid {
+    padding: 0px 15px !important;
+}
+    .section2imagesDiv img:first-child {
+
+}
+    .section2imagesDiv img {
+    width: 400px;
+
+}
+    h3 {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+}
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) (max-width: 1339.98px){
+.container-fluid {
+    padding: 0px 50px !important;
+}
+
+    h2 {
+    font-size: 33px;
+    margin-bottom: 0px;
+}
+}

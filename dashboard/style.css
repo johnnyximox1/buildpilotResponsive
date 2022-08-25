@@ -3,7 +3,7 @@
 /*dashboard page 1*/
 /*dashboard page 1*/
 /*dashboard page 1*/
-.dashboard1sec1{  
+.dashboard1sec1{
     margin-top: -80px;
 /*    background-position: center 85%;*/
 }
@@ -24,13 +24,13 @@
     flex-direction: column;
     justify-content: center;
     border-radius: 5px;
-    
+
    box-shadow: 3px 3px 25px 5px rgba(156,169,175,0.75);
 -webkit-box-shadow: 3px 3px 25px 5px rgba(156,169,175,0.75);
 -moz-box-shadow: 3px 3px 25px 5px rgba(156,169,175,0.75);
 }
 .dashpageOneBox h5{
-   
+
     color: black;
 }
 .dashpageOneBox .icon svg {
@@ -53,7 +53,7 @@
 /*page 2*/
 /*page 2*/
 
-.infoicon button{   
+.infoicon button{
     position: absolute;
     left: 5px;
     bottom: 2px;
@@ -71,8 +71,8 @@ color: #FFBD59;
 .infoicon button i{color: black;
 }
 .dashboard2sec1 .choose-btn {
-   
-    
+
+
     float: left;
 
     color: black;
@@ -96,8 +96,8 @@ color: #FFBD59;
 
 
 .dashboard2sec1 .nav-pills .nav-item .nav-link.active i{
-color:  #FFBD59;  
-    
+color:  #FFBD59;
+
 }
 
 .dashboard2sec1 .nav-pills .nav-item:first-child button.nav-link{
@@ -124,7 +124,7 @@ color:  #FFBD59;
 h1.dashboardTitle {
     font-size: 40px;
     font-weight: 400;
-    
+
 }
 
 .right-pills {
@@ -136,10 +136,10 @@ h1.dashboardTitle {
 }
 
 .profileDetails .profileSignle {
-  
+
 padding: 25px;
     border-radius: 10px;
- 
+
 }
 
 .customButtonbd2tab2 {
@@ -149,7 +149,7 @@ padding: 25px;
     border-radius: 10px;
     height: 74px;
     font-size: 25px;
-    
+
 }
 
 .dashboardPageSeven .profileSignle{
@@ -158,7 +158,7 @@ padding: 25px;
  border-bottom: 3px solid grey;
 }
 .dashboardPageSeven .profileSignle:last-child{
- 
+
  border-bottom: none;
 }
 
@@ -247,7 +247,7 @@ padding: 25px;
 
 
 .dashboard10sec1 .uploadbutton   {
-    
+
 }
 .dashboard10sec1 .uploadbutton .nav   {
     position: absolute;
