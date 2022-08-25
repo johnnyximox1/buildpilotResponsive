@@ -1,0 +1,129 @@
+#section1Explore {
+    margin-top: -90px;
+
+}
+
+.exploreCustomCard {
+    padding-left: 50px;
+}
+
+.exploreCustomCard .card {
+    border: none;
+    background: none;
+}
+
+.exploreCustomCard .card .card-body h5 {
+    font-size: 16px;
+}
+
+.exploreCustomCard .card .card-body p {
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.section1ExploreHeight {
+    height: 100vh;
+}
+
+.section1exploreInput .input-group {
+    height: 50px;
+}
+
+.section1exploreInput .input-group .form-control {
+    border: 1px solid white;
+    height: 50px;
+}
+
+.section1exploreInput .input-group button {
+    border: 1px solid white;
+    color: white;
+}
+
+.section1Explore {
+    background-color: #FFBD59;
+    background-image: url(../../img/explore1sec.png);
+    background-position: left bottom;
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+    /*    position: relative;*/
+}
+
+.exploremiddleClippath {
+-webkit-clip-path: polygon(0 4%, 100% 70%, 100% 100%, 0 100%);
+clip-path: polygon(0 4%, 100% 70%, 100% 100%, 0 100%);
+
+/*height: 100px;*/
+    background: white !important;
+    margin-top: -75px;
+}
+
+.section2explore {
+    background-image: url(../../img/explore/section2bg.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: left top;
+    margin-top: -100px;
+    position: relative;
+padding-bottom: 50px;
+}
+
+.expsection2left {
+    /*    padding-bottom: 20px;*/
+}
+
+.expsection2Right {
+    width: 300px;
+    text-align: center;
+}
+
+.expsection2Right h4 {
+    font-size: 16px;
+}
+
+.expsection2Right p {
+    font-size: 13px;
+}
+
+.section2explore .mobileCard .content h4 {
+    font-size: 16px;
+}
+
+.section2explore .mobileCard .content p {
+    font-size: 13px;
+}
+
+.expsection2Right .customButtonYello {
+    font-size: 12px;
+}
+
+
+.expsection2middle {}
+
+
+/*section three*/
+.section3ExploreHeight {
+    height: 350px;
+}
+.section3Explore{-webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);}
+
+
+
+#owl2 .owl-item img {
+    height: 50px;
+}
+
+#owl2 .owl-nav {
+    display: none;
+}
+
+/*section 4 */
+/*section 4 */
+
+.section4Explore{
+        background: #FFBD59;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    margin-top: -5px;
+}

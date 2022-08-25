@@ -1,0 +1,56 @@
+/*section one*/
+/*section one*/
+.section1 {
+    background-size: cover;
+    background-repeat: 
+        no-repeat;
+}
+.section2 {
+ -webkit-clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
+clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%);
+    margin-top: -100px;
+    background: white;
+}
+.section1Blog {
+    margin-top: -90px;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.paddingsetClippath {
+    margin-top: 50px;
+}
+.section1blogHeight {
+    min-height: 100vh;
+}
+
+.blogSeconeContent {
+ padding-left: 150px;   
+}
+.blogSeconeContent p{
+font-size: 20px;   
+}
+/*
+.blogsecOneImg img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+*/
+
+/*section two*/
+/*section two*/
+#section2Blog{
+    padding-top: 100px;
+}
+
+/*section three*/
+/*section three*/
+.section3  {
+    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    
+}
+.section3BlogHeight {
+ min-height: 500px;   
+}

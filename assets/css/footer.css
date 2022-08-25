@@ -1,0 +1,16 @@
+footer img.logo {
+    width: 200px;
+}
+.footericons a i{
+    color: #706F6F;
+    font-size: 25px;
+
+}
+.footericons a {
+color: #706F6F;
+    margin-right: 20px;
+}
+.footerLists a {
+color: #706F6F;
+   text-decoration: none;
+}
