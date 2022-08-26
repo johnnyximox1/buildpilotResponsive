@@ -387,10 +387,11 @@ background-size: 130%;
 }
     .section2explore {
 
-    background-size: 180%;
-    background-position: 115% 0%;
-    margin-top: 0px;
+background-size: 180%;
 
+background-position: 115% -4%;
+
+margin-top: 0px;
 }
     .mobileImgdiv {
     text-align: center;
@@ -432,6 +433,9 @@ width: 300px;
 }
     .section4ExploreBottom {
         padding-top: 100px;
+    }
+    .section4Explore  {
+        overflow: hidden;
     }
 }
 
@@ -464,10 +468,11 @@ margin-top: -80px;
 }
     .section2explore {
 
-    background-size: 180%;
-    background-position: 115% 0%;
-    margin-top: 0px;
+background-size: 180%;
 
+background-position: 115% -20%;
+
+margin-top: 0px;
 }
     .mobileImgdiv {
     text-align: center;
@@ -509,6 +514,9 @@ width: 300px;
 }
     .section4ExploreBottom {
         padding-top: 100px;
+    }
+        .section4Explore  {
+        overflow: hidden;
     }
 
 }
