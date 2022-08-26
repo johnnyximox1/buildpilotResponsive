@@ -56,39 +56,6 @@
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light  navClass fluidgap">
-            <div class="container-fluid ">
-                <a class="navbar-brand" href="#"><img src="assets/img/logo.png" class="logo" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-
-
-                    </ul>
-
-                </div>
-            </div>
-        </nav>
-    </header>
 
     <!--###########-->
     <!--###########-->
@@ -98,27 +65,78 @@
     <!--    section 1-->
     <section class="section1">
         <div class="section1Explore" id="section1Explore">
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light  navClass fluidgap">
+                <div class="container-fluid ">
+                    <a class="navbar-brand" href="#"><img src="assets/img/logo.png" class="logo" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="home.html">HOME</a></li>
+                                    <li><a class="dropdown-item" href="matchedBuilder.html">Matched Builder</a></li>
+                                    <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                    <li><a class="dropdown-item" href="exploreHome.html">Explore Home</a></li>
+                                    <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
+
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
             <div class="container img2">
                 <div class="row justify-content-center">
                     <div class="col-lg-11 ">
                         <div class="row section1ExploreHeight">
-                            <div class="col-md-6 v-center">
+                            <div class="col-xl-6 col-md-12 v-center">
                                 <div class="">
                                     <h1 class="lite text-white">We'll help match you
                                         with the right home
                                         builder for free.</h1>
                                     <p class="text-white"><i>Australian residence only</i></p>
                                 </div>
-                                <div class="section1exploreInput">
+                                <div class="section1exploreInput d-none d-md-block">
                                     <form action="">
                                         <div class="input-group mb-3">
                                             <input type="text" class="form-control" placeholder="Which suburb you are building in?" aria-label="Recipient's username" aria-describedby="button-addon2">
-                                            <button class="btn " type="button" id="button-addon2">GET STARTED</button>
+                                            <button class="btn" type="button" id="button-addon2">GET STARTED</button>
                                         </div>
                                     </form>
                                 </div>
+                                 <div class="section1exploreInput d-done d-md-none d-sm-block">
+                                    <form action="">
+                                         <div class="mb-3">
+
+    <input type="text" class="form-control" id="" aria-describedby="" placeholder="Which suburb you are building in?">
+
+  </div>
+                                  <div class="customInputbutton">
+                                        <button type="submit" class="btn ">Submit</button>
+                                  </div>
+                                    </form>
+                                </div>
                             </div>
-                            <div class="col-md-6 v-center">
+                            <div class="col-xl-6 col-md-12 v-center">
                                 <div class="exploreCustomCard">
                                     <div class="card mb-3" style="">
                                         <div class="row g-0">
@@ -205,13 +223,13 @@
         <div class="section2explore" id="section2explore">
             <div class="container-fluid ">
                 <div class="row">
-                    <div class="col-lg-3 v-center">
+                    <div class="col-xl-3 col-lg-12 v-center">
                         <div class="expsection2left">
                             <h2 class="colorThemeYello">Find a home builder</h2>
                             <h1 class="lite colorThemeYello">in seconds</h1>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-xl-6  col-lg-12">
                         <div class="row expsection2middle">
                             <div class="col-lg-3">
                                 <div class="mobileCard">
@@ -259,7 +277,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 v-bottom">
+                    <div class="col-xl-3 col-lg-12 v-bottom">
                         <div class="row justify-content-center">
                             <div class="col-md-10">
                                 <div class="expsection2Right">
@@ -330,7 +348,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7">
-                        <div class="">
+                        <div class="section4ExploreBottom">
                             <img src="assets/img/homesec9img.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
@@ -347,13 +365,26 @@
 
 
 
+
     <footer class="py-5">
         <div class="container-fluid fluidgap">
-            <div class="row">
+            <div class="row d-none d-lg-block">
                 <img src="assets/img/logoblack.png" class="logo" alt="">
             </div>
             <div class="row pt-5">
-                <div class="col">
+                <div class="col d-none d-lg-block">
+                    <div class="footerLists">
+                        <h5>Features</h5>
+                        <p><a href="#">Find the right home builder</a></p>
+                        <p><a href="#">Find the right floor plan</a></p>
+                        <p><a href="#">Milestones</a></p>
+                        <p><a href="#">Build cost tracker</a></p>
+                        <p><a href="#">Selections / inspiration feed</a></p>
+                        <p><a href="#">Construction progress feed</a></p>
+                        <p><a href="#">Floor plan &amp; elevation feed</a></p>
+                    </div>
+                </div>
+                <div class="col d-none d-lg-block">
                     <div class="footerLists">
                         <h5>Features</h5>
                         <p><a href="#">Find the right home builder</a></p>
@@ -389,21 +420,12 @@
                         <p><a href="#">Floor plan &amp; elevation feed</a></p>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="footerLists">
-                        <h5>Features</h5>
-                        <p><a href="#">Find the right home builder</a></p>
-                        <p><a href="#">Find the right floor plan</a></p>
-                        <p><a href="#">Milestones</a></p>
-                        <p><a href="#">Build cost tracker</a></p>
-                        <p><a href="#">Selections / inspiration feed</a></p>
-                        <p><a href="#">Construction progress feed</a></p>
-                        <p><a href="#">Floor plan &amp; elevation feed</a></p>
-                    </div>
-                </div>
-                <div class="col ">&nbsp;</div>
+                <div class="col d-none d-xxl-block">&nbsp;</div>
             </div>
             <hr>
+            <div class="row  d-lg-none d-sm-block">
+                <img src="assets/img/logoblack.png" class="logo" alt="">
+            </div>
             <div class="footericons">
                 <a href=""> <i class="bi bi-facebook"></i></a>
                 <a href=""> <i class="bi bi-instagram"></i></a>
@@ -417,13 +439,13 @@
                             <li class="nav-item">
                                 <a class="nav-link disabled text-dark ps-0" href="#" tabindex="-1" aria-disabled="true">© BuildPilot 2022</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item d-none d-lg-block">
                                 <a class="nav-link text-dark" aria-current="page" href="#">Terms</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item d-none d-lg-block">
                                 <a class="nav-link text-dark" href="#">Private Policy </a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item d-none d-lg-block">
                                 <a class="nav-link text-dark" href="#">Copyright</a>
                             </li>
 
@@ -435,6 +457,9 @@
 
         </div>
     </footer>
+
+
+
 
 
 
